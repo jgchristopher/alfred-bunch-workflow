@@ -26,7 +26,7 @@ $ npm install --global alfred-bunch-workflow
 
 ## Usage
 
-- In Alfred, type `bu`. 
+- In Alfred, type `bn`. 
     - Press <kbd>Enter</kbd> to open the Bunch preference pane.
     - Press <kbd>⌘2</kbd> to refresh your list of bunch files
 - Continue typing a bunch name to filter the returned list. you can further filter the list by typing a bunch name

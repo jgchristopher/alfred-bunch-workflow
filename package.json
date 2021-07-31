@@ -4,7 +4,8 @@
   "description": "Alfred Workflow to interact with [Bunch](https://brettterpstra.com/projects/bunch/)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
   },
   "keywords": [
     "bunch",
@@ -15,6 +16,7 @@
   "author": "John Christopher",
   "license": "MIT",
   "dependencies": {
-    "alfy": "*"
+    "alfy": "*",
+    "glob": "*"
   }
 }
