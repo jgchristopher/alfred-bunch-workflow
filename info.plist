@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>xyz.jdotc.alfred-bunch-workflow</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict/>
+	<key>createdby</key>
+	<string>John Christopher</string>
+	<key>description</key>
+	<string>An Alfred workflow to Open/Toggle bunches and manage preferences for Bunch from Alfred</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Bunch</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>bu</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>./node_modules/.bin/run-node index.js "$1"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Type in the title of the bunch you would like to execute</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>1A3BD08E-8F27-4AA4-AD06-4EED6784CCA9</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>## Directions:
+
+	### Configuration  
+	bunchFolder - (~/bunches) - This is the path to your bunches (defaults to `~/bunches`)
+	bunchToggle - (true/false) - If `true` it will toggle the selected bunch, either opening or closing depending on current state. (default to `false`)
+
+		
+	### Usage
+	1. trigger Alfred
+	2. type bn (You should see your list of bunches)
+	3. continue typing to reduce the list of bunches
+	4. Return will open/toggle the selected bunch.</string>
+	<key>uidata</key>
+	<dict>
+		<key>1A3BD08E-8F27-4AA4-AD06-4EED6784CCA9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>125</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>bunchToggle</key>
+		<string>false</string>
+		<key>bunchesLocation</key>
+		<string></string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>bunchesLocation</string>
+		<string>bunchToggle</string>
+	</array>
+	<key>webaddress</key>
+	<string>https://jdotc.xyz</string>
+</dict>
+</plist>

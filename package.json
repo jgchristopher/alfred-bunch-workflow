@@ -1,0 +1,20 @@
+{
+  "name": "alfred-bunch-workflow",
+  "version": "1.0.0",
+  "description": "Alfred Workflow to interact with [Bunch](https://brettterpstra.com/projects/bunch/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bunch",
+    "alfred",
+    "alfred-workflow",
+    "workflow"
+  ],
+  "author": "John Christopher",
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "*"
+  }
+}
