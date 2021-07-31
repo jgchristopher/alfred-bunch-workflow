@@ -7,7 +7,21 @@
 	<key>category</key>
 	<string>Productivity</string>
 	<key>connections</key>
-	<dict/>
+	<dict>
+		<key>1A3BD08E-8F27-4AA4-AD06-4EED6784CCA9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A62C42B9-22A1-4939-911F-76FB13CA7A6A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
 	<key>createdby</key>
 	<string>John Christopher</string>
 	<key>description</key>
@@ -67,6 +81,25 @@
 			<key>version</key>
 			<integer>3</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>A62C42B9-22A1-4939-911F-76FB13CA7A6A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>## Directions:
@@ -90,6 +123,13 @@
 			<key>ypos</key>
 			<integer>50</integer>
 		</dict>
+		<key>A62C42B9-22A1-4939-911F-76FB13CA7A6A</key>
+		<dict>
+			<key>xpos</key>
+			<integer>275</integer>
+			<key>ypos</key>
+			<integer>50</integer>
+		</dict>
 	</dict>
 	<key>variables</key>
 	<dict>
@@ -104,7 +144,7 @@
 		<string>bunchToggle</string>
 	</array>
 	<key>version</key>
-	<string>1.0.1</string>
+	<string>1.0.2</string>
 	<key>webaddress</key>
 	<string>https://jdotc.xyz</string>
 </dict>

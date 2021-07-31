@@ -1,6 +1,6 @@
 {
   "name": "alfred-bunch-workflow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Alfred Workflow to interact with [Bunch](https://brettterpstra.com/projects/bunch/)",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,11 @@
     "alfred-workflow",
     "workflow"
   ],
-  "author": "John Christopher",
+  "author": {
+    "name": "John Christopher",
+    "email": "john@jdotc.xyz",
+    "url": "http://jdotc.xyz"
+  },
   "license": "MIT",
   "dependencies": {
     "alfy": "*",
