@@ -1,6 +1,6 @@
 {
   "name": "alfred-bunch-workflow",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Alfred Workflow to interact with [Bunch](https://brettterpstra.com/projects/bunch/)",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "alfy": "*",
+    "alfy": "0.11.1",
     "glob": "*"
   }
 }
